@@ -1,0 +1,28 @@
+{
+"edges" : [
+  {
+    "id": 0,
+    "hyperedge": [0]
+  },
+  {
+    "id": 1,
+    "hyperedge": [0,2]
+  },
+  {
+    "id": 2,
+    "hyperedge": [1,2]
+  },
+  {
+    "id": 3,
+    "hyperedge": [1,3]
+  },
+  {
+    "id": 4,
+    "hyperedge": [2,3]
+  },
+  {
+    "id": 5,
+    "hyperedge": [3]
+  }
+]
+}
