@@ -975,3 +975,25 @@ def case_degeree(df, case_item, config_item):
     G3 = hnx.Hypergraph(df_phase3['guard_assignment_variable'].to_dict())
 
     return model_degree_frame(G1, G2, G3)
+
+
+def reorder_symmetric(matrix, order):
+    # asser if the order is a list of numbers without any other type, or negative number
+    try:
+        assert all(isinstance(x, int) for x in order), 'The order is not a list of integers'
+    except AssertionError as e:
+        print(e)
+    # assert the matrix size is larger than (1 by 1)
+    try:
+        assert  len(matrix) > 1, 'The matrix size is less than 1 by 1'
+    except AssertionError as e:
+        print(e)
+    # asser the matrix is symmetric in length
+    assert (np.size(matrix) == np.size(matrix.T)), 'The matrix is not symmetric'
+    
+    new_matrix = np.zeros((len(matrix[:,0]), len(matrix[0,:])))
+    for i in range(len(matrix[:,0])):
+        for j in range(len(matrix[0,:])):
+            new_matrix[i, j] = matrix[order[i], order[j]]
+            
+    return new_matrix
