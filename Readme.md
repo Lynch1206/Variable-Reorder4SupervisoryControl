@@ -8,3 +8,10 @@ Supervisory control theory is brought up when early 80s', and is driven ever sin
 Simply put, the supervisory control theory is driven by discrete events, and it collects as much as information in the individual plants such that a supervisor can supervise all plants in the way as the engineer desires. <br/>
 
 A system includes 2 major things: plants that describe all components' behaviors and requirements that describe what the system may do. <br/>
+
+# A case example to demonstrate reordering
+In the file of [Transitional_relationships.ipynb](./Transitional_relationships.ipynb), a soft introduction of transitional relationships is given. <br/>
+In the file, there 2 cases. One is a simple case that I show how to derive the incidence matrix and adjacency matrix from the edges and the order of the nodes. <br/>
+Further, I show a larger case in terms of number of nodes to demonstrate the effective of reordering according to the adjacency matrix. <br/>
+<!-- show picture -->
+![reordering](./Spectral_reorder.png)
