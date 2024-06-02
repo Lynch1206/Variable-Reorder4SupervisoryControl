@@ -28,4 +28,20 @@ Suppose the index of the four components are assigned as a list of nodes:
 | 2 | Buffer |
 | 3 | TU |
 
+And the transitional matrix can be derived as follows:
+<!-- insert a table -->
+| Edge | Components | 
+| --- | --- |
+| $e1$ | [0] |
+| $e2$ | [0, 2] |
+| $e3$ | [1, 2] |
+| $e4$ | [1, 3] |
+| $e5$ | [2, 3] |
+| $e6$ | [3] |
 
+We can view this transitional relationship as a graph:
+<!-- insert a graph -->
+![Graph](../hypergraph.png)
+
+Where the nodes are the components and the edges are the transitional events. <br/>
+Further operations can be checked in file [Transitional_relationships.ipynb](../Transitional_relationships.ipynb). <br/>
