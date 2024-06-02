@@ -43,5 +43,6 @@ We can view this transitional relationship as a graph:
 <!-- insert a graph -->
 ![Graph](../hypergraph.png)
 
+
 Where the nodes are the components and the edges are the transitional events. <br/>
 Further operations can be checked in file [Transitional_relationships.ipynb](../Transitional_relationships.ipynb). <br/>
