@@ -28,9 +28,8 @@ In the picture, the y-axis refers to the resource that has been used to represen
 
 ## Relationships analysis in SCT
 In this [Transitional_relationships.ipynb](./Transitional_relationships.ipynb), I provide a size-favorable example for introducing the transitional relationships in SCT. And what we can do about it. At the final part of the demonstration, the work of clustering first, then sorting (use Sloan order algorithm) after has been done. 
-In short, we subtract the relationship of the systems as graph (might with multiple subgraphs), then reorder it.
+In short, we subtract the relationship of the systems as graph (might with multiple subgraphs), then reorder it (Lousberg et al. 2020).
 ![Reordering for graphs](./Spectral_reorder.png)
-> I write this part because I was trying to duplicate the algorithm. <br/>
 
 ## Reference
 > Thuijsman, S. et al. (2019) ‘Computational Effort of BDD-based Supervisor Synthesis of Extended Finite Automata’, in 2019 IEEE 15th International Conference on Automation Science and Engineering (CASE). 2019 IEEE 15th International Conference on Automation Science and Engineering (CASE), pp. 486–493 <br/>
