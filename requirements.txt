@@ -1,0 +1,13 @@
+numpy
+matplotlib
+pandas
+pathlib
+scipy
+hypernetx
+scikit-learn
+graphviz
+networkx
+tk
+prettytable
+jsons
+umap

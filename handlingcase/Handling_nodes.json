@@ -1,0 +1,20 @@
+{
+"nodes" : [
+  {
+    "id": 0,
+    "label": " PM1" 
+  },
+  {
+    "id": 1,
+    "label": " PM2" 
+  },
+  {
+    "id": 2,
+    "label": " Buffer" 
+  },
+  {
+    "id": 3,
+    "label": " TU" 
+  }
+]
+}

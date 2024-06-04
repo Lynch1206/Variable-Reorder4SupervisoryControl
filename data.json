@@ -1,0 +1,167 @@
+{
+    "Title": "FIFO",
+    "nodes": [
+   {
+   "id": "0",
+   "label": "INOUT"
+   },
+   {
+   "id": "1",
+   "label": "INOUT.nextId"
+   },
+   {
+   "id": "2",
+   "label": "INOUT.curId"
+   },
+   {
+   "id": "3",
+   "label": "INOUT.lastExitId"
+   },
+   {
+   "id": "4",
+   "label": "INOUT.cnt"
+   },
+   {
+   "id": "5",
+   "label": "DISP"
+   },
+   {
+   "id": "6",
+   "label": "DISP.curId"
+   },
+   {
+   "id": "7",
+   "label": "OP1"
+   },
+   {
+   "id": "8",
+   "label": "OP1.curId"
+   },
+   {
+   "id": "9",
+   "label": "OP2"
+   },
+   {
+   "id": "10",
+   "label": "OP2.curId"
+   },
+   {
+   "id": "11",
+   "label": "CHK"
+   },
+   {
+   "id": "12",
+   "label": "CHK.curId"
+   },
+   {
+   "id": "13",
+   "label": "DONE"
+   },
+   {
+   "id": "14",
+   "label": "DONE.curId"
+   }],
+    "edges": [
+   {
+   "id": "0",
+   "label": " Edge0",
+   "nodes": [
+   0,
+   1,
+   2,
+   4]
+   },
+   {
+   "id": "1",
+   "label": " Edge1",
+   "nodes": [
+   0,
+   2,
+   3,
+   4]
+   },
+   {
+   "id": "2",
+   "label": " Edge2",
+   "nodes": [
+   0,
+   2,
+   5,
+   6]
+   },
+   {
+   "id": "3",
+   "label": " Edge3",
+   "nodes": [
+   0,
+   2,
+   13,
+   14]
+   },
+   {
+   "id": "4",
+   "label": " Edge4",
+   "nodes": [
+   5,
+   6,
+   7,
+   8]
+   },
+   {
+   "id": "5",
+   "label": " Edge5",
+   "nodes": [
+   5,
+   6,
+   9,
+   10]
+   },
+   {
+   "id": "6",
+   "label": " Edge6",
+   "nodes": [
+   5,
+   6,
+   11,
+   12]
+   },
+   {
+   "id": "7",
+   "label": " Edge7",
+   "nodes": [
+   7,
+   8,
+   11,
+   12]
+   },
+   {
+   "id": "8",
+   "label": " Edge8",
+   "nodes": [
+   9,
+   10,
+   11,
+   12]
+   },
+   {
+   "id": "9",
+   "label": " Edge9",
+   "nodes": [
+   11]
+   },
+   {
+   "id": "10",
+   "label": " Edge10",
+   "nodes": [
+   11]
+   },
+   {
+   "id": "11",
+   "label": " Edge11",
+   "nodes": [
+   11,
+   12,
+   13,
+   14]
+   }]
+   }
