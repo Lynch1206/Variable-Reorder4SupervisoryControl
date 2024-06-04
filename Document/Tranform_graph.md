@@ -46,3 +46,10 @@ We can view this transitional relationship as a graph:
 
 Where the nodes are the components and the edges are the transitional events. <br/>
 Further operations can be checked in file [Transitional_relationships.ipynb](../Transitional_relationships.ipynb). <br/>
+
+# A case example to demonstrate reordering
+In the file of [Transitional_relationships.ipynb](../Transitional_relationships.ipynb), a soft introduction of transitional relationships is given. <br/>
+In the file, there 2 cases. One is a simple case that I show how to derive the incidence matrix and adjacency matrix from the edges and the order of the nodes. <br/>
+Further, I show a larger case in terms of number of nodes to demonstrate the effective of reordering according to the adjacency matrix. <br/>
+<!-- show picture -->
+![reordering](../Spectral_reorder.png)
